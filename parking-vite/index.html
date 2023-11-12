@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <p id="errorMessage" style="color: red;"></p>
+      <div id="placesParking">
+        <h2>Parking</h2>
+
+        <label for="numPlaces">places of parking: </label>
+        <input type="number" id="numeroPlazas" />
+        <button id="button1">Generar Parking</button>
+        <!-- <p id="errorMessage" style="color: red;"></p> -->
+      </div>
+      <div id="divAddCar" style="display: none;">
+        <h2>Agregar Automóvil</h2>
+        <label for="entryId">ID car: </label>
+        <input type="text" id="entryId" />
+        <button id="addCar">add car</button>
+        <!-- <p id="errorMessage" style="color: red;"></p> -->
+      </div>
+      <div id="parking"></div>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
