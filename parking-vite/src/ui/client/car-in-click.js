@@ -24,6 +24,7 @@ export const carInByClick = (ArrPlacesAvailable,inputPlaces, objData) => {
   });
 };
 
+
 export const parkingInByClick = (
   entryId,
   places,
